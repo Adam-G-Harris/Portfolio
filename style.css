@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -5,10 +6,43 @@
 }
 
 @font-face {
-	font-family: Avenir;
-	src: url("/Fonts/AvenirLTStd-Book.otf");
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/AvenirNext-UltraLight-11.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
 }
 
-body {
-	font-family: Avenir;
+@font-face {
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/Avenir-Light-07.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/Avenir-LightOblique-08.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/Avenir-Book-01.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/Avenir-BookOblique-02.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('/Fonts/Avenir/Avenir-Medium-09.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
