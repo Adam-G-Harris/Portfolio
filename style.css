@@ -2,21 +2,44 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border: 1px solid;
+	overflow-x: hidden;
 }
 
-#lineDrawing {
-	width: 100%;
+body {
+	font-family: 'Avenir';
+}
+
+
+/* Landing page container */
+
+#landingPagecontainer {
+	width: 100vw;
 	height: 100vh;
+}
+
+
+/* Landing page text container */
+
+#landingPagecontainer #hello {
+	position: relative;
+	text-align: center;
+	top: 30vh;
+	font-size: 3rem;
+}
+
+
+/* Container makes nameSVG responsive ...Fuck yeah */
+
+#svgContainer {
+	position: relative;
+	top: 50vh;
 	display: flex;
 	justify-content: center;
 }
 
-#lineDrawing svg {
-	width: 50vw;
-	align-self: center;
-}
 
-#lineDrawing svg path {
-	transform: scale(2);
+/* Width of nameSVG */
+
+svg {
+	width: 27vw;
 }
